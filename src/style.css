@@ -1,0 +1,63 @@
+:root {
+  --primary-color: rgb(99, 0, 156);
+  --secondary-color: purple;
+  --third-color: rgb(92, 91, 91);
+  --bc-color: rgba(127, 2, 199, 0.5);
+  --border: 1px solid purple;
+  --hover-color: rgb(34, 25, 153);
+}
+body {
+  text-align: center;
+}
+h4 {
+  color: var(--third-color);
+  margin: 30px;
+}
+h2,
+h1,
+h3 {
+  text-align: center;
+  margin: 30px;
+  color: var(--secondary-color);
+}
+h1 {
+  color: var(--primary-color);
+}
+.contact,
+.about {
+  margin: 10px;
+  padding: 20px;
+  border: var(--border);
+  border-radius: 5px;
+}
+.contact {
+  background-color: var(--bc-color);
+  color: white;
+  text-decoration: none;
+}
+.about {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.homepage {
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+.col {
+  color: var(--primary-color);
+  margin: 10px;
+  padding: 15px;
+  background-color: var(--bc-color);
+}
+.footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a :hover {
+  color: var(--hover-color) !important;
+}
+.container {
+  margin: 20px;
+}
