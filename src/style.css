@@ -58,6 +58,10 @@ h1 {
 a :hover {
   color: var(--hover-color) !important;
 }
-.container {
+.footer {
+  text-align: center;
   margin: 20px;
 }
+/*.container {
+  margin: 20px;
+}*/
